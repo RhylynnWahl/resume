@@ -51,6 +51,10 @@ main {
     max-width: 420px;
     line-height: 2;
 }
+.sideways-text {
+    writing-mode: vertical-lr; /* Text flows vertically, lines progress left to right */
+    text-orientation: upright; /* Keeps characters upright (optional, for Latin scripts) */
+}
 
 /*MIDDLE */
 .panel.middle {
