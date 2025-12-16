@@ -91,11 +91,44 @@ main {
     .content{
         grid-template-columns: 1fr 1fr; 
     }
+    .sideways-text {
+        writing-mode: horizontal-tb;
+        text-orientation: mixed;
+    }
 }
 
 /* 960px */
 @media (max-width: 960px) {
-    .content{
-        grid-template-columns: 1fr; 
+main {
+        grid-template-columns: 1fr;
+    }
+
+    .panel.header {
+        grid-column: 1 / -1;
+        order: 1;
+    }
+
+    .panel.left {
+        grid-column: 1 / -1;
+        order: 2;
+    }
+
+    .content {
+        grid-column: 1 / -1;
+        display: grid;
+        grid-template-columns: 1fr;
+        order: 3;
+    }
+
+    .panel.right {
+        order: 1;
+    }
+
+    .panel.middle {
+        order: 2;
+    }
+    .sideways-text {
+        writing-mode: horizontal-tb;
+        text-orientation: mixed;
     }
 }
