@@ -80,12 +80,6 @@ main {
   color: #b87e89;
   text-align: center
 }
-
-.panel.footer{
-    grid-column: 1 / -1;
-    
-}
-
 /* 1400px */
 @media screen and (max-width: 1400px) {
     main {
