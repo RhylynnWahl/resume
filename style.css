@@ -8,7 +8,7 @@ body {
 main {
     display: grid;
     background: #eeeee7;
-    grid-template-columns: 0.5fr 3.5fr;
+    grid-template-columns: 0.25fr 3.75fr;
     min-height: 100vh;
 }
 
