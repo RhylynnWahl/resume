@@ -79,6 +79,14 @@ main {
 .details{
   color: #b87e89;
 }
+
+/*FOOTER*/
+.panel.footer {
+    grid-column: 1 / -1;
+    padding: 30px 60px;
+}
+
+
 /* 1400px */
 @media screen and (max-width: 1400px) {
     main {
@@ -117,6 +125,9 @@ main {
         display: grid;
         grid-template-columns: 1fr;
         order: 3;
+    }
+    .footer{
+        order: 4;
     }
 
     .panel.right {
