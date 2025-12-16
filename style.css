@@ -78,7 +78,6 @@ main {
 }
 .details{
   color: #b87e89;
-  text-align: center
 }
 /* 1400px */
 @media screen and (max-width: 1400px) {
