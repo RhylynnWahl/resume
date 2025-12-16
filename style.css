@@ -83,6 +83,7 @@ main {
 
 /*FOOTER*/
 .footer {
+    display: grid;
     grid-column: 1 / -1;
     display: block;
     width: 90%;
